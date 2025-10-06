@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+}
+
+.site-header .menu-principal ul {
+  display: flex;
+  list-style: none;
+}
+
+.site-header .menu-principal li {
+  margin-left: 20px;
+}
+
+.site-header .menu-principal a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.conteudo-principal {
+  padding: 20px;
+}
+
+.destaques h2 {
+  margin-bottom: 20px;
+}
+
+.grade-albuns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.album {
+  width: 30%;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.album img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.newsletter {
+  margin-top: 40px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.newsletter input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px;
+  background-color: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.rodape {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.banner p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.redes-sociais a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.redes-sociais a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .grade-albuns {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .album {
+    width: 100%;
+  }
+}
