@@ -131,3 +131,19 @@ body {
     width: 100%;
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h5 {
+  font-weight: bold;
+}
+
+.card img {
+  max-height: 250px;
+  object-fit: cover;
+}
